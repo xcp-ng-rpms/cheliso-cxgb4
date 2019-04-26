@@ -19,6 +19,7 @@ Provides: gitsha(https://code.citrite.net/rest/archive/latest/projects/XS/repos/
 
 
 BuildRequires: kernel-devel
+BuildRequires: gcc
 Provides: vendor-driver
 Requires: kernel-uname-r = %{kernel_version}
 Requires(post): /usr/sbin/depmod
